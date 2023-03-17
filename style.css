@@ -201,6 +201,10 @@ span {
     text-align: left;
 }
 
+#about a{
+    margin-top: 20px;
+}
+
 
 #about p{
     font-weight: 400;
