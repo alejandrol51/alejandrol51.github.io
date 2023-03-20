@@ -22,9 +22,15 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background: #fff;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
     z-index: 1000;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
 }
 
 .logo{
